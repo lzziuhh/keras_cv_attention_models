@@ -122,7 +122,7 @@ def EfficientNetV2(
     input_shape=(None, None, 3),
     num_classes=1000,
     dropout=0.2,
-    first_strides=2,
+    first_strides=1,
     is_torch_mode=False,
     use_global_context_instead_of_se=False,
     drop_connect_rate=0,
